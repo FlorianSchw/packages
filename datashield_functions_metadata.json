@@ -10883,8 +10883,8 @@
     "function_name": "ds.histAllVars",
     "architecture_type": "client",
     "function_type": "other",
-    "title": "",
-    "description": "",
+    "title": "DataSHIELD helper function for histograms",
+    "description": "Generates and saves histogram plots for all numeric or integer variables across one or more DataSHIELD-connected studies.",
     "category": "",
     "status": "",
     "test_file": false
@@ -10894,8 +10894,8 @@
     "function_name": "ds.rse",
     "architecture_type": "client",
     "function_type": "other",
-    "title": "",
-    "description": "",
+    "title": "Compute HC1 robust standard errors for a GLM fit",
+    "description": "Fits a Gaussian GLM on server-side data via ds.glm and computes heteroscedasticity-robust (HC1) standard errors, confidence intervals, z-statistics and p-values, either separately per study or pooled across all studies.",
     "category": "",
     "status": "",
     "test_file": false
@@ -10917,7 +10917,7 @@
     "architecture_type": "client",
     "function_type": "other",
     "title": "Table function for categorical data",
-    "description": "",
+    "description": "Builds a combined frequency table for every categorical (factor) variable in a server-side data frame, pooling results across all connected studies. It skips variables that are entirely missing (NA) in every study.",
     "category": "",
     "status": "",
     "test_file": false
